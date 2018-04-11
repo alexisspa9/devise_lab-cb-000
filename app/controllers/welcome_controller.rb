@@ -1,6 +1,10 @@
 class WelcomeController < ApplicationController
   def home
-    current_user.email
-    
-  end
+
+    end
+
+    def about
+      render :text => "About the Website"
+    end
+
 end
