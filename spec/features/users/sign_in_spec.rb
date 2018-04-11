@@ -5,7 +5,7 @@
 #   So I can visit protected areas of the site
 
 feature 'Sign in', :devise do
-  
+
   # Scenario: User cannot sign in if not registered
   #   Given I do not exist as a user
   #   When I sign in with valid credentials
@@ -22,7 +22,7 @@ feature 'Sign in', :devise do
   #   When I sign in with valid credentials
   #   Then I see a success message
   scenario 'user can sign in with valid credentials' do
-  
+
   end
 
   # Scenario: User cannot sign in with wrong email
