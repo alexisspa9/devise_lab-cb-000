@@ -12,5 +12,3 @@ feature 'Sign out', :devise do
   end
 
 end
-
-
